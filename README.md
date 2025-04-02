@@ -26,20 +26,7 @@ Upon selecting a city or pressing "Search" (or Enter), the app fetches and displ
 The background theme and animations update based on the weather condition (e.g., "Clear", "Rain", "Snow").
 Animations:
 CSS keyframes animate clouds, sun rays, raindrops, snowflakes, and lightning effects across the screen.
-Hosting on GitHub
-To host this project on GitHub Pages:
 
-Create a Repository: Upload index.html to a new GitHub repository (e.g., weather-dashboard).
-Enable GitHub Pages:
-Go to the repository settings.
-Scroll to the "GitHub Pages" section.
-Set the source to the main branch and root directory (/).
-Access the Site: Once deployed, the dashboard will be available at https://<username>.github.io/<repository-name>/.
-Usage
-Open the hosted URL in a browser.
-Type a city name (e.g., "London") in the search bar.
-Click "Search" or press Enter to view the weather data.
-Enjoy the dynamic visuals and weather updates!
 Notes
 API Key: The current API key is hardcoded in the script. For production use, consider securing it (e.g., via environment variables or a backend proxy).
 Dependencies: No external libraries are required; everything is self-contained in index.html.
